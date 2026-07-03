@@ -83,3 +83,8 @@ const assignedCustomers = [
     designation: 'Software Engineer',
     maritalStatus: 'Never Married',
     languages: ['English', 'Tamil', 'Hindi'],
+    siblings: 'Only child',
+    caste: 'Brahmin',
+    religion: 'Hindu',
+    wantKids: 'Maybe',
+    relocate: 'No',
