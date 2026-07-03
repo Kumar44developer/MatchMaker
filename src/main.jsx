@@ -53,4 +53,9 @@ const assignedCustomers = [
     designation: 'Product Manager',
     maritalStatus: 'Never Married',
     languages: ['English', 'Hindi', 'Kannada'],
-                
+    siblings: 'One younger sister',
+    caste: 'Vaishya',
+    religion: 'Hindu',
+    wantKids: 'Yes',
+    relocate: 'Maybe',
+    pets: 'Yes',                
