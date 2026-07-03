@@ -130,3 +130,10 @@ const assignedCustomers = [
 function choice(list, index, salt = 0) {
   return list[(index + salt) % list.length];
 }
+
+
+function makePool(targetGender) {
+  const names = targetGender === 'Female' ? firstNamesFemale : firstNamesMale;
+  return Array.from({ length: 100 }, (_, i) => {
+    const ageBase = targetGender === 'Female' ? 24 : 29;
+    const city = choice(cities, i, 2);
