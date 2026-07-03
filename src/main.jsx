@@ -78,3 +78,8 @@ const assignedCustomers = [
     phone: '+91 98765 12002',
     college: 'BITS Pilani',
     degree: 'M.Tech',
+    income: 3000000,
+    company: 'Google',
+    designation: 'Software Engineer',
+    maritalStatus: 'Never Married',
+    languages: ['English', 'Tamil', 'Hindi'],
