@@ -100,3 +100,7 @@ const assignedCustomers = [
     lastName: 'Rao',
     gender: 'Male',
     dob: '1992-11-05',
+    age: 33,
+    country: 'India',
+    city: 'Hyderabad',
+    height: 173,
