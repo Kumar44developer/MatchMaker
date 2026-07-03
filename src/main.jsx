@@ -59,3 +59,8 @@ const assignedCustomers = [
     wantKids: 'Yes',
     relocate: 'Maybe',
     pets: 'Yes',                
+    status: 'Ready for shortlist',
+    tag: 'High Intent',
+    values: ['family-oriented', 'career-focused', 'calm communicator'],
+    notes: 'Prefers Bengaluru or Mumbai. Family wants a professional match with similar values.',
+  },
