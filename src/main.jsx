@@ -31,3 +31,16 @@ const colleges = ['IIT Madras', 'IIM Bangalore', 'RVCE', 'Christ University', 'B
 const degrees = ['B.Tech', 'MBA', 'M.Com', 'MBBS', 'B.Arch', 'M.Tech', 'BBA', 'CA'];
 const languages = ['English', 'Hindi', 'Kannada', 'Tamil', 'Telugu', 'Marathi', 'Malayalam'];
 const values = ['family-oriented', 'career-focused', 'spiritual', 'travel-loving', 'community-minded', 'calm communicat
+
+
+const assignedCustomers = [
+  {
+    id: 'c-001',
+    firstName: 'Rohan',
+    lastName: 'Mehta',
+    gender: 'Male',
+    dob: '1994-08-14',
+    age: 31,
+
+
+                
