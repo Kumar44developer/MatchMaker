@@ -108,3 +108,8 @@ const assignedCustomers = [
     phone: '+91 98765 12003',
     college: 'NIT Trichy',
     degree: 'B.Tech',
+    income: 2600000,
+    company: 'Amazon',
+    designation: 'Software Engineer',
+    maritalStatus: 'Divorced',
+    languages: ['English', 'Telugu', 'Hindi'],
