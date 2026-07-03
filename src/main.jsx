@@ -41,6 +41,11 @@ const assignedCustomers = [
     gender: 'Male',
     dob: '1994-08-14',
     age: 31,
-
+    country: 'India',
+    city: 'Bengaluru',
+    height: 178,
+    email: 'rohan.mehta@example.com',
+    phone: '+91 98765 12001',
+    college: 'IIM Bangalore',
 
                 
