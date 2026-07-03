@@ -47,5 +47,10 @@ const assignedCustomers = [
     email: 'rohan.mehta@example.com',
     phone: '+91 98765 12001',
     college: 'IIM Bangalore',
-
+    degree: 'MBA',
+    income: 4200000,
+    company: 'Razorpay',
+    designation: 'Product Manager',
+    maritalStatus: 'Never Married',
+    languages: ['English', 'Hindi', 'Kannada'],
                 
