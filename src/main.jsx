@@ -104,3 +104,7 @@ const assignedCustomers = [
     country: 'India',
     city: 'Hyderabad',
     height: 173,
+    email: 'karthik.rao@example.com',
+    phone: '+91 98765 12003',
+    college: 'NIT Trichy',
+    degree: 'B.Tech',
