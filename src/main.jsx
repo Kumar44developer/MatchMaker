@@ -125,3 +125,8 @@ const assignedCustomers = [
     notes: 'Open to relocation and wants transparent conversations about past marriage.',
   },
 ];
+
+
+function choice(list, index, salt = 0) {
+  return list[(index + salt) % list.length];
+}
