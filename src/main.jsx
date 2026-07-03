@@ -64,3 +64,9 @@ const assignedCustomers = [
     values: ['family-oriented', 'career-focused', 'calm communicator'],
     notes: 'Prefers Bengaluru or Mumbai. Family wants a professional match with similar values.',
   },
+  {
+    id: 'c-002',
+    firstName: 'Ananya',
+    lastName: 'Iyer',
+    gender: 'Female',
+    dob: '1996-03-22',
