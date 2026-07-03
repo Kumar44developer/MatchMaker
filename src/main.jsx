@@ -70,3 +70,7 @@ const assignedCustomers = [
     lastName: 'Iyer',
     gender: 'Female',
     dob: '1996-03-22',
+    age: 30,
+    country: 'India',
+    city: 'Chennai',
+    height: 164,
