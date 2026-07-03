@@ -94,3 +94,9 @@ const assignedCustomers = [
     values: ['career-focused', 'calm communicator', 'fitness-conscious'],
     notes: 'Strong preference for Chennai or Bengaluru, values education and mutual independence.',
   },
+  {
+    id: 'c-003',
+    firstName: 'Karthik',
+    lastName: 'Rao',
+    gender: 'Male',
+    dob: '1992-11-05',
