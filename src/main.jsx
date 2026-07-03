@@ -119,3 +119,9 @@ const assignedCustomers = [
     wantKids: 'Yes',
     relocate: 'Yes',
     pets: 'No',
+    status: 'Needs call notes',
+    tag: 'Second marriage',
+    values: ['family-oriented', 'spiritual', 'community-minded'],
+    notes: 'Open to relocation and wants transparent conversations about past marriage.',
+  },
+];
