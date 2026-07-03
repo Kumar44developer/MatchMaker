@@ -16,3 +16,5 @@ import {
   Sparkles,
   UserRound,
   Users,
+} from 'lucide-react';
+import './styles.css';
