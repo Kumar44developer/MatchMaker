@@ -177,3 +177,11 @@ function formatIncome(value) {
 function scoreMatch(customer, candidate) {
   let score = 28;
   const reasons = [];
+
+
+  if (customer.gender === 'Male') {
+    if (candidate.age < customer.age) { score += 14; reasons.push('younger age preference'); }
+    if (candidate.income < customer.income) { score += 10; reasons.push('income aligns with stated male-customer rule'); }
+    if (candidate.height < customer.height) { score += 9; reasons.push('height preference aligns'); }
+    if (candidate.wantKids === customer.wantKids) { score += 8; reasons.push('children preference matches'); }
+  } else {
