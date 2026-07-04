@@ -154,3 +154,7 @@ function makePool(targetGender) {
       income: targetGender === 'Female' ? 900000 + (i % 18) * 180000 : 1600000 + (i % 20) * 240000,
       company: choice(companies, i, 5),
       designation: choice(roles, i, 2),
+      maritalStatus: i % 19 === 0 ? 'Divorced' : 'Never Married',
+      languages: [choice(languages, i), choice(languages, i, 2), 'English'],
+      siblings: i % 3 === 0 ? 'One younger sibling' : i % 3 === 1 ? 'Only child' : 'Two siblings',
+      caste: choice(castes, i, 1),
