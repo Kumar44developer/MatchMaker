@@ -208,3 +208,10 @@ function scoreMatch(customer, candidate) {
   const capped = Math.min(98, score);
   const label = capped >= 82 ? 'High Potential Match' : capped >= 68 ? 'Strong Fit' : capped >= 54 ? 'Review Worthy' : 'Low Priority';
   return {
+    ...candidate,
+    score: capped,
+    label,
+    reasons: reasons.slice(0, 5),
+    aiIntro: `Hi ${candidate.firstName}, ${customer.firstName}'s profile stood out because of your ${reasons.slice(0, 2).join(' and ') || 'shared life-stage fit'}. We think this could be a thoughtful conversation to explore.`,
+  };
+}
