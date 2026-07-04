@@ -146,3 +146,8 @@ function makePool(targetGender) {
       age: ageBase + (i % 11),
       country: 'India',
       city,
+      height: targetGender === 'Female' ? 152 + (i % 18) : 168 + (i % 17),
+      email: `${choice(names, i).toLowerCase()}.${choice(lastNames, i).toLowerCase()}${i + 1}@example.com`,
+      phone: `+91 90000 ${String(10000 + i).slice(0, 5)}`,
+      college: choice(colleges, i, 3),
+      degree: choice(degrees, i, 1),
