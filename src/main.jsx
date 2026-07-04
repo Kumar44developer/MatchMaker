@@ -205,3 +205,6 @@ function scoreMatch(customer, candidate) {
   score += Math.min(sharedValues.length * 7, 14);
   if (sharedValues.length) reasons.push(`${sharedValues.length} shared value signal${sharedValues.length > 1 ? 's' : ''}`);
                                                                                        
+  const capped = Math.min(98, score);
+  const label = capped >= 82 ? 'High Potential Match' : capped >= 68 ? 'Strong Fit' : capped >= 54 ? 'Review Worthy' : 'Low Priority';
+  return {
