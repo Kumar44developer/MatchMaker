@@ -141,3 +141,8 @@ function makePool(targetGender) {
       id: `p-${targetGender[0].toLowerCase()}-${String(i + 1).padStart(3, '0')}`,
       firstName: choice(names, i),
       lastName: choice(lastNames, i, 4),
+      gender: targetGender,
+      dob: `${1990 + (i % 10)}-${String((i % 12) + 1).padStart(2, '0')}-14`,
+      age: ageBase + (i % 11),
+      country: 'India',
+      city,
