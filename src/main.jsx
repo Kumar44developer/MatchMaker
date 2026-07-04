@@ -158,3 +158,7 @@ function makePool(targetGender) {
       languages: [choice(languages, i), choice(languages, i, 2), 'English'],
       siblings: i % 3 === 0 ? 'One younger sibling' : i % 3 === 1 ? 'Only child' : 'Two siblings',
       caste: choice(castes, i, 1),
+      religion: choice(religions, i),
+      wantKids: choice(['Yes', 'No', 'Maybe'], i),
+      relocate: choice(['Yes', 'No', 'Maybe'], i, 1),
+      pets: choice(['Yes', 'No', 'Maybe'], i, 2),
