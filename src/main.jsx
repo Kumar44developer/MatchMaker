@@ -162,3 +162,8 @@ function makePool(targetGender) {
       wantKids: choice(['Yes', 'No', 'Maybe'], i),
       relocate: choice(['Yes', 'No', 'Maybe'], i, 1),
       pets: choice(['Yes', 'No', 'Maybe'], i, 2),
+      values: [choice(values, i), choice(values, i, 3), choice(values, i, 5)],
+      status: i % 5 === 0 ? 'Verified' : i % 5 === 1 ? 'Intro ready' : i % 5 === 2 ? 'Family review' : i % 5 === 3 ? 'Needs call' : 'New profile',
+    };
+  });
+}
