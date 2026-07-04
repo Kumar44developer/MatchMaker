@@ -137,3 +137,7 @@ function makePool(targetGender) {
   return Array.from({ length: 100 }, (_, i) => {
     const ageBase = targetGender === 'Female' ? 24 : 29;
     const city = choice(cities, i, 2);
+    return {
+      id: `p-${targetGender[0].toLowerCase()}-${String(i + 1).padStart(3, '0')}`,
+      firstName: choice(names, i),
+      lastName: choice(lastNames, i, 4),
