@@ -185,3 +185,8 @@ function scoreMatch(customer, candidate) {
     if (candidate.height < customer.height) { score += 9; reasons.push('height preference aligns'); }
     if (candidate.wantKids === customer.wantKids) { score += 8; reasons.push('children preference matches'); }
   } else {
+    if (candidate.age >= customer.age && candidate.age <= customer.age + 6) { score += 12; reasons.push('age range is practical'); }
+    if (candidate.income >= customer.income) { score += 10; reasons.push('financial stability is strong'); }
+    if (candidate.height > customer.height) { score += 8; reasons.push('height preference aligns'); }
+    if (candidate.relocate === 'Yes' || customer.relocate === 'Yes') { score += 8; reasons.push('relocation flexibility'); }
+  }
