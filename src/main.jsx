@@ -151,3 +151,6 @@ function makePool(targetGender) {
       phone: `+91 90000 ${String(10000 + i).slice(0, 5)}`,
       college: choice(colleges, i, 3),
       degree: choice(degrees, i, 1),
+      income: targetGender === 'Female' ? 900000 + (i % 18) * 180000 : 1600000 + (i % 20) * 240000,
+      company: choice(companies, i, 5),
+      designation: choice(roles, i, 2),
