@@ -172,3 +172,8 @@ function formatIncome(value) {
   if (value >= 10000000) return `Rs ${(value / 10000000).toFixed(1)} Cr`;
   return `Rs ${(value / 100000).toFixed(1)} LPA`;
 }
+
+
+function scoreMatch(customer, candidate) {
+  let score = 28;
+  const reasons = [];
