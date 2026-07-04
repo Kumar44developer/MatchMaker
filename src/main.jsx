@@ -200,3 +200,8 @@ function scoreMatch(customer, candidate) {
   const sharedLanguages = candidate.languages.filter((language) => customer.languages.includes(language));
   score += Math.min(sharedLanguages.length * 4, 10);
   if (sharedLanguages.length) reasons.push(`${sharedLanguages.length} shared language${sharedLanguages.length > 1 ? 's
+
+  const sharedValues = candidate.values.filter((value) => customer.values.includes(value));
+  score += Math.min(sharedValues.length * 7, 14);
+  if (sharedValues.length) reasons.push(`${sharedValues.length} shared value signal${sharedValues.length > 1 ? 's' : ''}`);
+                                                                                       
