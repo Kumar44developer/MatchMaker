@@ -215,3 +215,11 @@ function scoreMatch(customer, candidate) {
     aiIntro: `Hi ${candidate.firstName}, ${customer.firstName}'s profile stood out because of your ${reasons.slice(0, 2).join(' and ') || 'shared life-stage fit'}. We think this could be a thoughtful conversation to explore.`,
   };
 }
+
+function App() {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [selectedId, setSelectedId] = useState(assignedCustomers[0].id);
+  const [query, setQuery] = useState('');
+  const [activeMatch, setActiveMatch] = useState(null);
+  const [toast, setToast] = useState('');
+  const [notes, setNotes] = useState(Object.fromEntries(assignedCustomers.map((c) => [c.id, c.notes])));
