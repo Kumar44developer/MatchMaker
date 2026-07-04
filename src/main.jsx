@@ -190,3 +190,9 @@ function scoreMatch(customer, candidate) {
     if (candidate.height > customer.height) { score += 8; reasons.push('height preference aligns'); }
     if (candidate.relocate === 'Yes' || customer.relocate === 'Yes') { score += 8; reasons.push('relocation flexibility'); }
   }
+
+
+  if (candidate.city === customer.city) { score += 14; reasons.push('same city'); }
+  if (candidate.religion === customer.religion) { score += 8; reasons.push('religion match'); }
+  if (candidate.caste === customer.caste) { score += 6; reasons.push('caste/community alignment'); }
+  if (candidate.maritalStatus === customer.maritalStatus) { score += 5; reasons.push('marital status fit'); }
