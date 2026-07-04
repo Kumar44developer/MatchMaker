@@ -196,3 +196,7 @@ function scoreMatch(customer, candidate) {
   if (candidate.religion === customer.religion) { score += 8; reasons.push('religion match'); }
   if (candidate.caste === customer.caste) { score += 6; reasons.push('caste/community alignment'); }
   if (candidate.maritalStatus === customer.maritalStatus) { score += 5; reasons.push('marital status fit'); }
+
+  const sharedLanguages = candidate.languages.filter((language) => customer.languages.includes(language));
+  score += Math.min(sharedLanguages.length * 4, 10);
+  if (sharedLanguages.length) reasons.push(`${sharedLanguages.length} shared language${sharedLanguages.length > 1 ? 's
