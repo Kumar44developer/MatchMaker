@@ -360,3 +360,7 @@ function CustomerDetail({ customer, note, onNoteChange }) {
     ['Company / Designation', `${customer.company}, ${customer.designation}`],
     ['Marital status', customer.maritalStatus],
     ['Languages', customer.languages.join(', ')],
+    ['Siblings', customer.siblings],
+    ['Caste / Religion', `${customer.caste}, ${customer.religion}`],
+    ['Kids / Relocate / Pets', `${customer.wantKids} / ${customer.relocate} / ${customer.pets}`],
+  ];
