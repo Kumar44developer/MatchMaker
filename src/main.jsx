@@ -345,3 +345,10 @@ function Login({ onLogin }) {
     </main>
   );
 }
+
+function CustomerDetail({ customer, note, onNoteChange }) {
+  const fields = [
+    ['Full name', `${customer.firstName} ${customer.lastName}`],
+    ['Gender', customer.gender],
+    ['Date of birth', customer.dob],
+    ['Country / City', `${customer.country}, ${customer.city}`],
