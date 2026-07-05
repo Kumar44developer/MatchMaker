@@ -309,3 +309,11 @@ function App() {
         <SendModal
           customer={selected}
           match={activeMatch}
+          onClose={() => setActiveMatch(null)}
+          onSend={() => {
+            setToast(`Match sent to ${selected.firstName} for ${activeMatch.firstName} ${activeMatch.lastName}`);
+            setActiveMatch(null);
+            setTimeout(() => setToast(''), 3000);
+          }}
+        />
+      )}
