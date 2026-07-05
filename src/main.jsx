@@ -389,3 +389,9 @@ function CustomerDetail({ customer, note, onNoteChange }) {
     </article>
   );
 }
+
+function Matches({ customer, matches, onSend }) {
+  return (
+    <article className="matches-panel">
+      <div className="panel-heading">
+        <div>
