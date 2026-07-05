@@ -228,3 +228,8 @@ function App() {
   const selected = assignedCustomers.find((customer) => customer.id === selectedId);
   const pool = useMemo(() => makePool(selected.gender === 'Male' ? 'Female' : 'Male'), [selected.gender]);
   const matches = useMemo(() => pool.map((candidate) => scoreMatch(selected, candidate)).sort((a, b) => b.score - a.score), [pool, selected]);
+
+
+  if (!loggedIn) {
+    return <Login onLogin={() => setLoggedIn(true)} />;
+  }
