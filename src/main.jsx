@@ -273,3 +273,7 @@ function App() {
           <section className="customer-panel">
             <div className="panel-heading">
               <div>
+                <h2>Customer List</h2>
+                <p>{assignedCustomers.length} verified profiles assigned</p>
+              </div>
+              <ShieldCheck size={21} />
