@@ -233,3 +233,9 @@ function App() {
   if (!loggedIn) {
     return <Login onLogin={() => setLoggedIn(true)} />;
   }
+
+
+  const filteredCustomers = assignedCustomers.filter((customer) => {
+    const text = `${customer.firstName} ${customer.lastName} ${customer.city} ${customer.tag}`.toLowerCase();
+    return text.includes(query.toLowerCase());
+  });
