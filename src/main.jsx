@@ -250,3 +250,8 @@ function App() {
             <span>MVP Dashboard</span>
           </div>
         </div>
+        <button className="nav-item active"><Users size={18} /> Customers</button>
+        <button className="nav-item"><Sparkles size={18} /> AI Matches</button>
+        <button className="nav-item"><NotebookPen size={18} /> Notes</button>
+        <button className="nav-item bottom" onClick={() => setLoggedIn(false)}><LogOut size={18} /> Logout</button>
+      </aside>
