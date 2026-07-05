@@ -303,3 +303,9 @@ function App() {
           </section>
         </div>
       </section>
+
+
+      {activeMatch && (
+        <SendModal
+          customer={selected}
+          match={activeMatch}
