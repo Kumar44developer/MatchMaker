@@ -369,3 +369,8 @@ function CustomerDetail({ customer, note, onNoteChange }) {
       <div className="profile-header">
         <div className="large-avatar">{customer.firstName[0]}{customer.lastName[0]}</div>
         <div>
+          <span className="status-pill">{customer.status}</span>
+          <h2>{customer.firstName} {customer.lastName}</h2>
+          <p><MapPin size={15} /> {customer.city} · {customer.age} yrs · {customer.maritalStatus}</p>
+        </div>
+      </div>
