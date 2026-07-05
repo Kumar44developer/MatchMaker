@@ -246,3 +246,7 @@ function App() {
         <div className="brand">
           <div className="brand-mark"><HeartHandshake size={24} /></div>
           <div>
+            <strong>TDC Matchmaker</strong>
+            <span>MVP Dashboard</span>
+          </div>
+        </div>
