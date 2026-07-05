@@ -239,3 +239,10 @@ function App() {
     const text = `${customer.firstName} ${customer.lastName} ${customer.city} ${customer.tag}`.toLowerCase();
     return text.includes(query.toLowerCase());
   });
+
+  return (
+    <main className="app-shell">
+      <aside className="sidebar">
+        <div className="brand">
+          <div className="brand-mark"><HeartHandshake size={24} /></div>
+          <div>
