@@ -287,3 +287,12 @@ function App() {
                 <button className={`customer-row ${customer.id === selectedId ? 'selected' : ''}`} key={customer.id} onClick={() => setSelectedId(customer.id)}>
                   <span className="avatar">{customer.firstName[0]}{customer.lastName[0]}</span>
                   <span className="row-main">
+                    <strong>{customer.firstName} {customer.lastName}</strong>
+                    <small>{customer.age} yrs · {customer.city} · {customer.maritalStatus}</small>
+                  </span>
+                  <span className="status-tag">{customer.tag}</span>
+                  <ChevronRight size={16} />
+                </button>
+              ))}
+            </div>
+          </section>
