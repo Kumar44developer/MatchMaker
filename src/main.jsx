@@ -364,3 +364,8 @@ function CustomerDetail({ customer, note, onNoteChange }) {
     ['Caste / Religion', `${customer.caste}, ${customer.religion}`],
     ['Kids / Relocate / Pets', `${customer.wantKids} / ${customer.relocate} / ${customer.pets}`],
   ];
+  return (
+    <article className="profile-card">
+      <div className="profile-header">
+        <div className="large-avatar">{customer.firstName[0]}{customer.lastName[0]}</div>
+        <div>
