@@ -337,3 +337,11 @@ function Login({ onLogin }) {
           <span>Internal login</span>
           <h2>Matchmaker access</h2>
         </div>
+        <label>Username<input defaultValue="tdc_matchmaker" /></label>
+        <label>Password<input type="password" defaultValue="password123" /></label>
+        <button onClick={onLogin}><ShieldCheck size={18} /> Login</button>
+        <p className="credentials">Sample credentials: tdc_matchmaker / password123</p>
+      </section>
+    </main>
+  );
+}
