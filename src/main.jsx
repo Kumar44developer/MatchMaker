@@ -352,3 +352,7 @@ function CustomerDetail({ customer, note, onNoteChange }) {
     ['Gender', customer.gender],
     ['Date of birth', customer.dob],
     ['Country / City', `${customer.country}, ${customer.city}`],
+    ['Height', `${customer.height} cm`],
+    ['Email', customer.email],
+    ['Phone', customer.phone],
+    ['Education', `${customer.college}, ${customer.degree}`],
