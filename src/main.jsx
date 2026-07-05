@@ -356,3 +356,7 @@ function CustomerDetail({ customer, note, onNoteChange }) {
     ['Email', customer.email],
     ['Phone', customer.phone],
     ['Education', `${customer.college}, ${customer.degree}`],
+    ['Income', formatIncome(customer.income)],
+    ['Company / Designation', `${customer.company}, ${customer.designation}`],
+    ['Marital status', customer.maritalStatus],
+    ['Languages', customer.languages.join(', ')],
