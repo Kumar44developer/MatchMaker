@@ -262,3 +262,8 @@ function App() {
             <p>Matchmaker desk</p>
             <h1>Assigned customers and ranked introductions</h1>
           </div>
+          <div className="top-actions">
+            <button className="icon-button" aria-label="Alerts"><Bell size={18} /></button>
+            <div className="matchmaker-chip"><UserRound size={17} /> tdc_matchmaker</div>
+          </div>
+        </header>
