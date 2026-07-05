@@ -328,4 +328,6 @@ function Login({ onLogin }) {
       <section className="login-visual">
         <div className="visual-overlay">
           <HeartHandshake size={42} />
-
+          <h1>TDC Matchmaker</h1>
+          <p>Verified profile operations, ranked introductions, and client notes in one internal desk.</p>
+        </div>
