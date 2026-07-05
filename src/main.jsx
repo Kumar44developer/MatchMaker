@@ -282,3 +282,8 @@ function App() {
               <Search size={17} />
               <input placeholder="Search by name, city, tag" value={query} onChange={(event) => setQuery(event.target.value)} />
             </label>
+            <div className="customer-list">
+              {filteredCustomers.map((customer) => (
+                <button className={`customer-row ${customer.id === selectedId ? 'selected' : ''}`} key={customer.id} onClick={() => setSelectedId(customer.id)}>
+                  <span className="avatar">{customer.firstName[0]}{customer.lastName[0]}</span>
+                  <span className="row-main">
