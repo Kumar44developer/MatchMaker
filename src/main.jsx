@@ -331,3 +331,9 @@ function Login({ onLogin }) {
           <h1>TDC Matchmaker</h1>
           <p>Verified profile operations, ranked introductions, and client notes in one internal desk.</p>
         </div>
+      </section>
+      <section className="login-card">
+        <div className="login-title">
+          <span>Internal login</span>
+          <h2>Matchmaker access</h2>
+        </div>
