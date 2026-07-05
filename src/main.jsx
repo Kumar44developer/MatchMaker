@@ -381,3 +381,11 @@ function CustomerDetail({ customer, note, onNoteChange }) {
             <strong>{value}</strong>
           </div>
         ))}
+      </div>
+      <label className="notes-area">
+        <span>Quick meeting notes</span>
+        <textarea value={note} onChange={(event) => onNoteChange(event.target.value)} />
+      </label>
+    </article>
+  );
+}
