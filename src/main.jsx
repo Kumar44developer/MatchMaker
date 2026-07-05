@@ -259,3 +259,6 @@ function App() {
       <section className="workspace">
         <header className="topbar">
           <div>
+            <p>Matchmaker desk</p>
+            <h1>Assigned customers and ranked introductions</h1>
+          </div>
