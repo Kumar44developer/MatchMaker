@@ -223,3 +223,8 @@ function App() {
   const [activeMatch, setActiveMatch] = useState(null);
   const [toast, setToast] = useState('');
   const [notes, setNotes] = useState(Object.fromEntries(assignedCustomers.map((c) => [c.id, c.notes])));
+
+
+  const selected = assignedCustomers.find((customer) => customer.id === selectedId);
+  const pool = useMemo(() => makePool(selected.gender === 'Male' ? 'Female' : 'Male'), [selected.gender]);
+  const matches = useMemo(() => pool.map((candidate) => scoreMatch(selected, candidate)).sort((a, b) => b.score - a.score), [pool, selected]);
