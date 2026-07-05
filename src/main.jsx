@@ -321,3 +321,11 @@ function App() {
     </main>
   );
 }
+
+function Login({ onLogin }) {
+  return (
+    <main className="login-page">
+      <section className="login-visual">
+        <div className="visual-overlay">
+          <HeartHandshake size={42} />
+
