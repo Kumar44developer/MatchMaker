@@ -277,3 +277,8 @@ function App() {
                 <p>{assignedCustomers.length} verified profiles assigned</p>
               </div>
               <ShieldCheck size={21} />
+            </div>
+            <label className="search-box">
+              <Search size={17} />
+              <input placeholder="Search by name, city, tag" value={query} onChange={(event) => setQuery(event.target.value)} />
+            </label>
