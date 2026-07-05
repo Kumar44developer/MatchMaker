@@ -317,3 +317,7 @@ function App() {
           }}
         />
       )}
+      {toast && <div className="toast"><Check size={18} /> {toast}</div>}
+    </main>
+  );
+}
