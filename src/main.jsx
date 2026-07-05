@@ -296,3 +296,10 @@ function App() {
               ))}
             </div>
           </section>
+
+          <section className="detail-panel">
+            <CustomerDetail customer={selected} note={notes[selected.id]} onNoteChange={(value) => setNotes({ ...notes, [selected.id]: value })} />
+            <Matches customer={selected} matches={matches.slice(0, 8)} onSend={setActiveMatch} />
+          </section>
+        </div>
+      </section>
