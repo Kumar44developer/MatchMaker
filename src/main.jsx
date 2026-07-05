@@ -255,3 +255,7 @@ function App() {
         <button className="nav-item"><NotebookPen size={18} /> Notes</button>
         <button className="nav-item bottom" onClick={() => setLoggedIn(false)}><LogOut size={18} /> Logout</button>
       </aside>
+
+      <section className="workspace">
+        <header className="topbar">
+          <div>
