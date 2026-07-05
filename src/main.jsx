@@ -374,3 +374,10 @@ function CustomerDetail({ customer, note, onNoteChange }) {
           <p><MapPin size={15} /> {customer.city} · {customer.age} yrs · {customer.maritalStatus}</p>
         </div>
       </div>
+      <div className="field-grid">
+        {fields.map(([label, value]) => (
+          <div className="field" key={label}>
+            <span>{label}</span>
+            <strong>{value}</strong>
+          </div>
+        ))}
