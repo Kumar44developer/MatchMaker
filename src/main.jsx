@@ -433,3 +433,7 @@ function SendModal({ customer, match, onClose, onSend }) {
       <section className="modal">
         <button className="back-button" onClick={onClose}><ArrowLeft size={17} /> Back</button>
         <Mail size={28} />
+        <h2>Send suggested introduction</h2>
+        <p>Mock email preview for {customer.firstName} about {match.firstName} {match.lastName}.</p>
+        <div className="email-preview">
+          <strong>Subject: A thoughtful match for you</strong>
