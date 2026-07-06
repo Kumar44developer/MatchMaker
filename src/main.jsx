@@ -400,3 +400,9 @@ function Matches({ customer, matches, onSend }) {
         </div>
         <Sparkles size={22} />
       </div>
+      <div className="match-list">
+        {matches.map((match) => (
+          <section className="match-card" key={match.id}>
+            <div className="score-ring" style={{ '--score': `${match.score}%` }}>
+              <span>{match.score}</span>
+            </div>
