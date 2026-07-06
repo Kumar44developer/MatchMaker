@@ -409,3 +409,8 @@ function Matches({ customer, matches, onSend }) {
             <div className="match-body">
               <div className="match-top">
                 <div>
+                  <h3>{match.firstName} {match.lastName}</h3>
+                  <p>{match.age} yrs · {match.city} · {formatIncome(match.income)}</p>
+                </div>
+                <span>{match.label}</span>
+              </div>
