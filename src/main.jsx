@@ -426,3 +426,10 @@ function Matches({ customer, matches, onSend }) {
     </article>
   );
 }
+
+function SendModal({ customer, match, onClose, onSend }) {
+  return (
+    <div className="modal-backdrop">
+      <section className="modal">
+        <button className="back-button" onClick={onClose}><ArrowLeft size={17} /> Back</button>
+        <Mail size={28} />
