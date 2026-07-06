@@ -40,3 +40,8 @@ button {
   padding: 58px;
   color: white;
 }
+
+
+.visual-overlay {
+  max-width: 680px;
+}
