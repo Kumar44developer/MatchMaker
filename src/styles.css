@@ -82,3 +82,6 @@ button {
 .login-title h2,
 .topbar h1,
 .panel-heading h2,
+.profile-header h2 {
+  margin: 6px 0 0;
+}
