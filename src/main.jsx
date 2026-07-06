@@ -395,3 +395,8 @@ function Matches({ customer, matches, onSend }) {
     <article className="matches-panel">
       <div className="panel-heading">
         <div>
+          <h2>AI Ranked Matches</h2>
+          <p>100 generated {customer.gender === 'Male' ? 'female' : 'male'} profiles scored against {customer.firstName}</p>
+        </div>
+        <Sparkles size={22} />
+      </div>
