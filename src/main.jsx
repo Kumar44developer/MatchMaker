@@ -414,3 +414,8 @@ function Matches({ customer, matches, onSend }) {
                 </div>
                 <span>{match.label}</span>
               </div>
+              <div className="reason-list">
+                {match.reasons.map((reason) => <small key={reason}>{reason}</small>)}
+              </div>
+              <p className="ai-copy">{match.aiIntro}</p>
+            </div>
