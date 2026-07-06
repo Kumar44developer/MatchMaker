@@ -45,3 +45,7 @@ button {
 .visual-overlay {
   max-width: 680px;
 }
+
+
+.visual-overlay h1 {
+  font-size: clamp(44px, 7vw, 82px);
