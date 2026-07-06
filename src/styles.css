@@ -65,3 +65,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 56px;
+  gap: 18px;
+  background: #fffdfa;
+}
