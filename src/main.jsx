@@ -437,3 +437,11 @@ function SendModal({ customer, match, onClose, onSend }) {
         <p>Mock email preview for {customer.firstName} about {match.firstName} {match.lastName}.</p>
         <div className="email-preview">
           <strong>Subject: A thoughtful match for you</strong>
+          <span>{match.aiIntro}</span>
+          <span>Why this works: {match.reasons.join(', ')}.</span>
+        </div>
+        <button className="primary-send" onClick={onSend}><Send size={17} /> Confirm Send Match</button>
+      </section>
+    </div>
+  );
+}
