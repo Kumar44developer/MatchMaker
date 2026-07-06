@@ -59,3 +59,9 @@ button {
   line-height: 1.55;
   max-width: 620px;
 }
+
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
