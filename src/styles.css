@@ -23,3 +23,9 @@ textarea {
 button {
   cursor: pointer;
 }
+
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.9fr);
+}
