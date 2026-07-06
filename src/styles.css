@@ -36,3 +36,7 @@ button {
     linear-gradient(90deg, rgba(20, 38, 35, 0.88), rgba(20, 38, 35, 0.28)),
     url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=80") center/cover;
   display: flex;
+  align-items: flex-end;
+  padding: 58px;
+  color: white;
+}
