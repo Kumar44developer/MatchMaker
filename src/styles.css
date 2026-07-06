@@ -74,3 +74,6 @@ button {
 .login-title span,
 .panel-heading p,
 .topbar p,
+.credentials {
+  color: #6f7771;
+}
