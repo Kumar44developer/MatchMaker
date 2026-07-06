@@ -445,3 +445,5 @@ function SendModal({ customer, match, onClose, onSend }) {
     </div>
   );
 }
+
+createRoot(document.getElementById('root')).render(<App />);
