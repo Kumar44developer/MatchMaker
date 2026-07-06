@@ -85,3 +85,9 @@ button {
 .profile-header h2 {
   margin: 6px 0 0;
 }
+.login-card label {
+  display: grid;
+  gap: 8px;
+  color: #4b5650;
+  font-weight: 700;
+}
