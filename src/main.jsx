@@ -419,3 +419,10 @@ function Matches({ customer, matches, onSend }) {
               </div>
               <p className="ai-copy">{match.aiIntro}</p>
             </div>
+            <button className="send-button" onClick={() => onSend(match)}><Send size={16} /> Send Match</button>
+          </section>
+        ))}
+      </div>
+    </article>
+  );
+}
