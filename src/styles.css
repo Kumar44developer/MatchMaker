@@ -128,3 +128,6 @@ button {
   color: white;
   padding: 24px 18px;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
