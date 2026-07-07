@@ -135,3 +135,6 @@ button {
 .brand {
   display: flex;
   gap: 12px;
+  align-items: center;
+  padding-bottom: 24px;
+}
