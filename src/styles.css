@@ -116,3 +116,9 @@ button {
   justify-content: center;
   gap: 9px;
 }
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+}
