@@ -106,3 +106,6 @@ button {
 .login-card button,
 .primary-send {
   border: 0;
+  border-radius: 8px;
+  background: #1f6f64;
+  color: white;
