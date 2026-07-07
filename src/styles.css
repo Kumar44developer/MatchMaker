@@ -91,3 +91,7 @@ button {
   color: #4b5650;
   font-weight: 700;
 }
+
+.login-card input,
+.search-box input,
+.notes-area textarea {
