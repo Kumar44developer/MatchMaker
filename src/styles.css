@@ -126,3 +126,5 @@ button {
 .sidebar {
   background: #183431;
   color: white;
+  padding: 24px 18px;
+  display: flex;
