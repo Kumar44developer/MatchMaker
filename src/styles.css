@@ -131,3 +131,7 @@ button {
   flex-direction: column;
   gap: 10px;
 }
+
+.brand {
+  display: flex;
+  gap: 12px;
