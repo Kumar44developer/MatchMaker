@@ -138,3 +138,7 @@ button {
   align-items: center;
   padding-bottom: 24px;
 }
+
+.brand span {
+  display: block;
+  color: #b7cbc6;
