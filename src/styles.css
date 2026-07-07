@@ -166,3 +166,6 @@ button {
 .nav-item {
   min-height: 44px;
   border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #dbe8e5;
