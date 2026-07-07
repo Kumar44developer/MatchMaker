@@ -149,3 +149,8 @@ button {
 .brand-mark,
 .large-avatar,
 .avatar {
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  font-weight: 900;
+}
