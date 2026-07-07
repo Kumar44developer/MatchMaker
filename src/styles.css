@@ -101,3 +101,8 @@ button {
   background: white;
   color: #1d2320;
 }
+
+
+.login-card button,
+.primary-send {
+  border: 0;
