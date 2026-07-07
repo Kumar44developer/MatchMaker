@@ -162,3 +162,7 @@ button {
   background: #e8b86d;
   color: #17322f;
 }
+
+.nav-item {
+  min-height: 44px;
+  border: 0;
