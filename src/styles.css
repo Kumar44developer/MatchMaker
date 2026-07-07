@@ -95,3 +95,6 @@ button {
 .login-card input,
 .search-box input,
 .notes-area textarea {
+  border: 1px solid #d8d5ce;
+  border-radius: 8px;
+  padding: 13px 14px;
