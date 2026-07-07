@@ -142,3 +142,6 @@ button {
 .brand span {
   display: block;
   color: #b7cbc6;
+  font-size: 13px;
+  margin-top: 3px;
+}
