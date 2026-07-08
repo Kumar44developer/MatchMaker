@@ -218,3 +218,8 @@ button {
   border-radius: 8px;
   background: white;
 }
+
+.matchmaker-chip {
+  min-height: 42px;
+  border: 1px solid #d8d5ce;
+
