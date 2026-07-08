@@ -179,3 +179,7 @@ button {
 .nav-item:hover {
   background: #244844;
 }
+
+.nav-item.bottom {
+  margin-top: auto;
+}
