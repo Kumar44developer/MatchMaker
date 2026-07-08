@@ -210,3 +210,8 @@ button {
 .top-actions {
   justify-content: flex-end;
 }
+
+.icon-button {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #d8d5ce;
