@@ -243,3 +243,7 @@ button {
 .profile-card,
 .matches-panel {
   background: #fffdfa;
+  border: 1px solid #dfd9cf;
+  border-radius: 8px;
+  box-shadow: 0 18px 40px rgba(39, 47, 43, 0.08);
+}
