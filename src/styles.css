@@ -183,3 +183,7 @@ button {
 .nav-item.bottom {
   margin-top: auto;
 }
+
+.workspace {
+  padding: 28px;
+}
