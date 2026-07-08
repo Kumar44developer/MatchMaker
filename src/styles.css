@@ -202,3 +202,7 @@ button {
 .topbar {
   margin-bottom: 22px;
 }
+
+.topbar h1 {
+  font-size: 28px;
+}
