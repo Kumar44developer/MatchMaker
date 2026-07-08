@@ -174,3 +174,8 @@ button {
   gap: 10px;
   padding: 0 12px;
 }
+
+.nav-item.active,
+.nav-item:hover {
+  background: #244844;
+}
