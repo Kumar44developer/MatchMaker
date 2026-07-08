@@ -206,3 +206,7 @@ button {
 .topbar h1 {
   font-size: 28px;
 }
+
+.top-actions {
+  justify-content: flex-end;
+}
