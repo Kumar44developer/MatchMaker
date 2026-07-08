@@ -238,3 +238,8 @@ button {
   gap: 20px;
   align-items: start;
 }
+
+.customer-panel,
+.profile-card,
+.matches-panel {
+  background: #fffdfa;
