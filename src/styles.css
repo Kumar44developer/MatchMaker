@@ -222,4 +222,7 @@ button {
 .matchmaker-chip {
   min-height: 42px;
   border: 1px solid #d8d5ce;
-
+  border-radius: 8px;
+  background: white;
+  padding: 0 13px;
+  display: flex;
