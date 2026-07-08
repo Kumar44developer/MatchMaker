@@ -230,3 +230,8 @@ button {
   gap: 8px;
   font-weight: 800;
 }
+
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: minmax(330px, 380px) minmax(0, 1fr);
