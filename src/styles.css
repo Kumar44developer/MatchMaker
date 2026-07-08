@@ -198,3 +198,7 @@ button {
   justify-content: space-between;
   gap: 16px;
 }
+
+.topbar {
+  margin-bottom: 22px;
+}
