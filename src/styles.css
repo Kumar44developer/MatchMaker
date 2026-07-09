@@ -338,3 +338,8 @@ button {
   justify-content: flex-start;
   margin-bottom: 22px;
 }
+
+.large-avatar {
+  width: 76px;
+  height: 76px;
+  background: #1f6f64;
