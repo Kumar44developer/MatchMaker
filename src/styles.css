@@ -302,3 +302,7 @@ button {
 .row-main strong,
 .row-main small {
   display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
