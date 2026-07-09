@@ -323,3 +323,9 @@ button {
   font-size: 12px;
   font-weight: 900;
 }
+
+
+.detail-panel {
+  display: grid;
+  gap: 20px;
+}
