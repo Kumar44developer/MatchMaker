@@ -262,3 +262,6 @@ button {
 .search-box input {
   border: 0;
   outline: 0;
+  width: 100%;
+  padding-left: 0;
+}
