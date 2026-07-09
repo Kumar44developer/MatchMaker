@@ -316,3 +316,7 @@ button {
 .status-tag,
 .status-pill,
 .match-top span {
+  border-radius: 8px;
+  background: #f1e5d0;
+  color: #71501e;
+  padding: 6px 8px;
