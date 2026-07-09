@@ -306,3 +306,9 @@ button {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+
+.row-main small {
+  color: #65706a;
+  margin-top: 3px;
+}
