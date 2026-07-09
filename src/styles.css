@@ -298,3 +298,7 @@ button {
 .row-main {
   min-width: 0;
 }
+
+.row-main strong,
+.row-main small {
+  display: block;
