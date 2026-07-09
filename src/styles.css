@@ -265,3 +265,8 @@ button {
   width: 100%;
   padding-left: 0;
 }
+
+.customer-list {
+  display: grid;
+  gap: 10px;
+}
