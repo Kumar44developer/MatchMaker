@@ -282,3 +282,8 @@ button {
   gap: 10px;
   text-align: left;
 }
+
+.customer-row.selected {
+  border-color: #1f6f64;
+  background: #edf7f4;
+}
