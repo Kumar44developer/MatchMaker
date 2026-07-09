@@ -329,3 +329,7 @@ button {
   display: grid;
   gap: 20px;
 }
+
+.profile-card {
+  padding: 22px;
+}
