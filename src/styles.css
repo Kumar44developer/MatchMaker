@@ -333,3 +333,8 @@ button {
 .profile-card {
   padding: 22px;
 }
+
+.profile-header {
+  justify-content: flex-start;
+  margin-bottom: 22px;
+}
