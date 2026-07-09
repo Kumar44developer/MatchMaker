@@ -270,3 +270,8 @@ button {
   display: grid;
   gap: 10px;
 }
+
+.customer-row {
+  border: 1px solid #e1ddd5;
+  background: white;
+  border-radius: 8px;
