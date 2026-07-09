@@ -294,3 +294,7 @@ button {
   background: #f0c980;
   color: #2c2618;
 }
+
+.row-main {
+  min-width: 0;
+}
