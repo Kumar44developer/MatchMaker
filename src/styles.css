@@ -254,3 +254,7 @@ button {
   gap: 10px;
   border: 1px solid #d8d5ce;
   border-radius: 8px;
+  padding: 0 12px;
+  margin: 18px 0;
+  background: white;
+}
