@@ -251,3 +251,6 @@ button {
 .search-box {
   display: flex;
   align-items: center;
+  gap: 10px;
+  border: 1px solid #d8d5ce;
+  border-radius: 8px;
