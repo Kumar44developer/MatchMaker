@@ -372,3 +372,8 @@ button {
   font-weight: 800;
   margin-bottom: 6px;
 }
+
+
+.field strong {
+  line-height: 1.35;
+}
