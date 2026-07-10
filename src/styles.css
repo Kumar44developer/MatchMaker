@@ -389,3 +389,7 @@ button {
   min-height: 92px;
   resize: vertical;
 }
+
+
+.match-list {
+  display: grid;
