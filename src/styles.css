@@ -396,3 +396,8 @@ button {
   gap: 12px;
   margin-top: 16px;
 }
+
+.match-card {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr) auto;
+  gap: 14px;
