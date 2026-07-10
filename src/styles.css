@@ -354,3 +354,7 @@ button {
   color: #6f7771;
   margin: 8px 0 0;
 }
+
+.field-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
