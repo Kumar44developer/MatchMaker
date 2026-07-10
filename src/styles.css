@@ -383,3 +383,6 @@ button {
   display: block;
   margin-top: 16px;
 }
+
+.notes-area textarea {
+  width: 100%;
