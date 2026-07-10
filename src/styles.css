@@ -377,3 +377,9 @@ button {
 .field strong {
   line-height: 1.35;
 }
+
+
+.notes-area {
+  display: block;
+  margin-top: 16px;
+}
