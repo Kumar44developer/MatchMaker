@@ -413,3 +413,6 @@ button {
   height: 64px;
   border-radius: 50%;
   background: conic-gradient(#1f6f64 var(--score), #ece7df 0);
+  display: grid;
+  place-items: center;
+}
