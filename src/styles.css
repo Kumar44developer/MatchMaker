@@ -367,3 +367,8 @@ button {
 .field span,
 .notes-area span {
   display: block;
+  color: #68726d;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
