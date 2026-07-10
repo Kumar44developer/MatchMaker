@@ -386,3 +386,6 @@ button {
 
 .notes-area textarea {
   width: 100%;
+  min-height: 92px;
+  resize: vertical;
+}
