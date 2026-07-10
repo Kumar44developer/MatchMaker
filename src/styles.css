@@ -350,3 +350,7 @@ button {
 .profile-header p {
   display: flex;
   align-items: center;
+  gap: 6px;
+  color: #6f7771;
+  margin: 8px 0 0;
+}
