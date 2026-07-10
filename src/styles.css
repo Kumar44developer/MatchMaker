@@ -424,3 +424,6 @@ button {
   border-radius: 50%;
   background: white;
   display: grid;
+  place-items: center;
+  font-weight: 900;
+}
