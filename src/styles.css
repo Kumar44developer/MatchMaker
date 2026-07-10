@@ -362,3 +362,8 @@ button {
   min-height: 78px;
   background: #fffaf2;
 }
+
+
+.field span,
+.notes-area span {
+  display: block;
