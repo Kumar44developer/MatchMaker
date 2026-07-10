@@ -407,3 +407,7 @@ button {
   padding: 14px;
   background: white;
 }
+
+.score-ring {
+  width: 64px;
+  height: 64px;
