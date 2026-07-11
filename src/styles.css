@@ -497,3 +497,6 @@ button {
   display: flex;
   gap: 7px;
   align-items: center;
+  padding: 0 0 18px;
+  color: #59645f;
+}
