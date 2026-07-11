@@ -560,3 +560,7 @@ button {
   .topbar,
   .panel-heading,
   .profile-header,
+  .match-top {
+    align-items: flex-start;
+    flex-direction: column;
+  }
