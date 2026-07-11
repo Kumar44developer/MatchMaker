@@ -535,3 +535,5 @@ button {
   .sidebar {
     min-height: auto;
     flex-direction: row;
+    flex-wrap: wrap;
+  }
