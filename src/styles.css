@@ -564,3 +564,8 @@ button {
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .field-grid,
+  .match-card {
+    grid-template-columns: 1fr;
+  }
