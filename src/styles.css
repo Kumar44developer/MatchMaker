@@ -528,3 +528,6 @@ button {
 @media (max-width: 1050px) {
   .app-shell,
   .login-page,
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
