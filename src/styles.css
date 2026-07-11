@@ -438,3 +438,7 @@ button {
   color: #69736e;
   margin-top: 4px;
 }
+
+.reason-list {
+  display: flex;
+  flex-wrap: wrap;
