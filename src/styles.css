@@ -543,3 +543,8 @@ button {
   .nav-item.bottom {
     margin: 0;
   }
+
+  .login-visual {
+    min-height: 42vh;
+  }
+}
