@@ -478,3 +478,6 @@ button {
   inset: 0;
   background: rgba(13, 24, 23, 0.58);
   display: grid;
+  place-items: center;
+  padding: 20px;
+}
