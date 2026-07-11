@@ -518,3 +518,6 @@ button {
   background: #17322f;
   color: white;
   border-radius: 8px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
