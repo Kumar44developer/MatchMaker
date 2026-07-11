@@ -510,3 +510,8 @@ button {
   gap: 10px;
   margin: 18px 0;
 }
+
+.toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
