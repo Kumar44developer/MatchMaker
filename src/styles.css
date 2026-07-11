@@ -548,3 +548,7 @@ button {
     min-height: 42vh;
   }
 }
+
+@media (max-width: 760px) {
+  .workspace,
+  .login-card,
