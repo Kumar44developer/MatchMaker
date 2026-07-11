@@ -507,3 +507,6 @@ button {
   background: #fffaf2;
   padding: 14px;
   display: grid;
+  gap: 10px;
+  margin: 18px 0;
+}
