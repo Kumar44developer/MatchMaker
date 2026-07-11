@@ -552,3 +552,6 @@ button {
 @media (max-width: 760px) {
   .workspace,
   .login-card,
+  .login-visual {
+    padding: 22px;
+  }
