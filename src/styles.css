@@ -472,3 +472,7 @@ button {
   gap: 8px;
   white-space: nowrap;
 }
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
