@@ -573,3 +573,8 @@ button {
   .customer-row {
     grid-template-columns: 44px minmax(0, 1fr) 16px;
   }
+
+  .status-tag {
+    grid-column: 2;
+    width: max-content;
+  }
