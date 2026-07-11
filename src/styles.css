@@ -537,3 +537,9 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+
+  .brand,
+  .nav-item.bottom {
+    margin: 0;
+  }
