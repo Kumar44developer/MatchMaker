@@ -442,3 +442,6 @@ button {
 .reason-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 7px;
+  margin: 10px 0;
+}
