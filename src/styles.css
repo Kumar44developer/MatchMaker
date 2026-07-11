@@ -445,3 +445,7 @@ button {
   gap: 7px;
   margin: 10px 0;
 }
+
+.reason-list small {
+  background: #edf7f4;
+  color: #1f6f64;
