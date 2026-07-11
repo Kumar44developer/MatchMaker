@@ -459,3 +459,7 @@ button {
   color: #4f5a55;
   line-height: 1.45;
 }
+
+.send-button {
+  border: 0;
+  border-radius: 8px;
