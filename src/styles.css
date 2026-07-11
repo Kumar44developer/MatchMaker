@@ -578,3 +578,9 @@ button {
     grid-column: 2;
     width: max-content;
   }
+
+
+  .send-button {
+    justify-content: center;
+  }
+}
