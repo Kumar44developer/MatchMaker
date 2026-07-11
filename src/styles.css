@@ -431,3 +431,5 @@ button {
 
 .match-top h3,
 .match-top p {
+  margin: 0;
+}
