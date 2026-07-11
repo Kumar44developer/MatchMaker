@@ -531,3 +531,7 @@ button {
   .dashboard-grid {
     grid-template-columns: 1fr;
   }
+
+  .sidebar {
+    min-height: auto;
+    flex-direction: row;
