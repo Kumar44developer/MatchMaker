@@ -481,3 +481,8 @@ button {
   place-items: center;
   padding: 20px;
 }
+
+
+.modal {
+  width: min(520px, 100%);
+  background: white;
