@@ -521,3 +521,6 @@ button {
   padding: 14px 16px;
   display: flex;
   align-items: center;
+  gap: 9px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+}
