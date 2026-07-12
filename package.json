@@ -13,3 +13,8 @@
     "vite": "^7.2.7",
     "typescript": "^5.9.3",
     "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0"
+  },
+  "devDependencies": {}
+}
