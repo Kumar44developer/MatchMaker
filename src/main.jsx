@@ -30,7 +30,7 @@ const roles = ['Product Manager', 'Software Engineer', 'Data Analyst', 'Marketin
 const colleges = ['IIT Madras', 'IIM Bangalore', 'RVCE', 'Christ University', 'BITS Pilani', 'NIT Trichy', 'PES University', 'Manipal University'];
 const degrees = ['B.Tech', 'MBA', 'M.Com', 'MBBS', 'B.Arch', 'M.Tech', 'BBA', 'CA'];
 const languages = ['English', 'Hindi', 'Kannada', 'Tamil', 'Telugu', 'Marathi', 'Malayalam'];
-const values = ['family-oriented', 'career-focused', 'spiritual', 'travel-loving', 'community-minded', 'calm communicat
+const values = ['family-oriented', 'career-focused', 'spiritual', 'travel-loving', 'community-minded', 'calm communicator', 'fitness-conscious', 'artistic'];
 
 
 const assignedCustomers = [
@@ -199,7 +199,7 @@ function scoreMatch(customer, candidate) {
 
   const sharedLanguages = candidate.languages.filter((language) => customer.languages.includes(language));
   score += Math.min(sharedLanguages.length * 4, 10);
-  if (sharedLanguages.length) reasons.push(`${sharedLanguages.length} shared language${sharedLanguages.length > 1 ? 's
+  if (sharedLanguages.length) reasons.push(`${sharedLanguages.length} shared language${sharedLanguages.length > 1 ? 's' : ''}`);
 
   const sharedValues = candidate.values.filter((value) => customer.values.includes(value));
   score += Math.min(sharedValues.length * 7, 14);
